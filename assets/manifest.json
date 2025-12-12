@@ -2,9 +2,9 @@
 	{
 		"repo": "HenningScheufler/pynodewidget",
 		"description": "Node editor widget based on react flow",
-		"sourceUrl": "https://github.com/HenningScheufler/pynodewidget/blob/main/imgs/widget_example.gif",
-		"image": "vscode_example.png",
-		"gif": "widget_example.gif"
+		"sourceUrl": "https://raw.githubusercontent.com/HenningScheufler/pynodewidget/main/imgs/widget_example.gif",
+		"image": "HenningScheufler__pynodewidget.jpeg",
+		"gif": "HenningScheufler__pynodewidget.gif"
 	},
 	{
 		"repo": "altair-viz/altair",

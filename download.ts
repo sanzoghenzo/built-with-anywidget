@@ -59,13 +59,19 @@ if (import.meta.main) {
 				bytes: Deno.readFileSync(`assets/${repo.gif}`),
 			};
 		} else if (repo.sourceUrl) {
-			asset = await fetch(repo.sourceUrl)
-				.then(async (response) =>
-					AssetSchema.parse({
-						mimeType: response.headers.get("content-type"),
-						bytes: new Uint8Array(await response.arrayBuffer()),
-					})
+			const response = await fetch(repo.sourceUrl);
+			const result = AssetSchema.safeParse({
+				mimeType: response.headers.get("content-type"),
+				bytes: new Uint8Array(await response.arrayBuffer()),
+			});
+			if (!result.success) {
+				console.error(`%cError: "${repo.repo}"`, "font-weight: bold; color: red");
+				console.error(
+					z.prettifyError(result.error),
 				);
+				continue;
+			}
+			asset = result.data;
 		} else {
 			// No sourceUrl, no gif, no image
 			continue;
