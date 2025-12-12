@@ -1,5 +1,12 @@
 [
 	{
+		"repo": "HenningScheufler/pynodewidget",
+		"description": "Node editor widget based on react flow",
+		"sourceUrl": "https://github.com/HenningScheufler/pynodewidget/blob/main/imgs/widget_example.gif",
+		"image": "vscode_example.png",
+		"gif": "widget_example.gif"
+	},
+	{
 		"repo": "altair-viz/altair",
 		"description": "Declarative statistical visualization library for Python",
 		"sourceUrl": "https://raw.githubusercontent.com/altair-viz/altair/main/images/cars_scatter_bar.gif",
