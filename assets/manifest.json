@@ -261,7 +261,6 @@
 	{
 		"repo": "manzt/pygv",
 		"description": "a minimal, scriptable genome browser for python",
-		"sourceUrl": "https://private-user-images.githubusercontent.com/24403730/318172550-8aa77384-6d7c-422f-9238-37e06a0272f6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTY0NjY3MDgsIm5iZiI6MTcxNjQ2NjQwOCwicGF0aCI6Ii8yNDQwMzczMC8zMTgxNzI1NTAtOGFhNzczODQtNmQ3Yy00MjJmLTkyMzgtMzdlMDZhMDI3MmY2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTIzVDEyMTMyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBmYTkyMGQzMTc2ZTNkMGZlMzY0ZDM1OTcyODFiMjQ5Y2FhNDhlMTIxNDE5MGZiZjA0ZmNhODY5ZGY2OWQwOGQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.w0CFIW2jgaCHPAUrm_lhxZcDYmmHkvJUrIOY7bJNpBQ",
 		"image": "manzt__pygv.png"
 	},
 	{
@@ -361,7 +360,7 @@
 	  	"repo": "javirm3/marimo-toml-editor",
 	  	"description": "Interactive TOML config editor for Jupyter and marimo notebooks. Type-aware inputs, rich list/dict editors, tabs, undo/redo, search, and dark mode.",
 	  	"sourceUrl": "https://raw.githubusercontent.com/javirm3/marimo-toml-editor/main/docs/demo.gif",
-		"image":  "https://raw.githubusercontent.com/javirm3/marimo-toml-editor/main/docs/demo.png",
-		"gif": "https://raw.githubusercontent.com/javirm3/marimo-toml-editor/main/docs/demo.gif"
+		"image":  "javirm3__marimo-toml-editor.png",
+		"gif": "javirm3__marimo-toml-editor.gif"
 	}
 ]
